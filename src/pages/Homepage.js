@@ -19,7 +19,6 @@ export default function Homepage() {
 
     const handleFiltering = (input) => {
         console.log(input.target.value);
-        const { cardData } = this.state;
 
         let filteredCards = cards.filter((value) => {
             return value.name.toLowerCase().includes((input.target.value).toLowerCase())
@@ -34,7 +33,7 @@ export default function Homepage() {
         <>
             <div className="card-search-row">
                 <h1 className="header">Rick & Morty</h1>
-                <form className="search-card-container" onSubmit={handleSubmit}>
+                <form className="search-card-container">
                     <input type='text'
                         name='searchPhrase'
                         onChange={handleFiltering}
