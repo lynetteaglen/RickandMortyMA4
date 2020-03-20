@@ -16,6 +16,7 @@ export default function CardSpecific({ match: { params: { id } } }) {
             })
     })
 
+
     return (
         <>
             <div>

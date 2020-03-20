@@ -3,11 +3,13 @@ import axios from 'axios';
 import Cards from './../components/cards';
 import { HEROKU_BYPASS_CORS, RICKY_API } from './../constants/constants';
 
+
 export default function Homepage() {
     const [cards, setCards] = useState(undefined);
     const [searchPhrase, setSearchPhrase] = useState('');
     const [filteredResults, setFilteredResults] = useState([]);
     const [isResultsFiltered, setIsResultsFiltered] = useState(false);
+
 
     useEffect(() => {
         axios.get(HEROKU_BYPASS_CORS + RICKY_API)
@@ -19,7 +21,6 @@ export default function Homepage() {
 
     const handleFiltering = (input) => {
         console.log(input.target.value);
-
         let filteredCards = cards.filter((value) => {
             return value.name.toLowerCase().includes((input.target.value).toLowerCase())
         })
@@ -80,5 +81,4 @@ export default function Homepage() {
             </div>
         </>
     );
-
 }

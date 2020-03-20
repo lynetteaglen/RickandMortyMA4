@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 
+
 export default function About() {
     const [accordion1, setAccordion1] = useState(false);
     const [accordion2, setAccordion2] = useState(false);
     const [accordion3, setAccordion3] = useState(false);
-
-
 
 
     const toggle = (accordionId) => {
@@ -48,8 +47,6 @@ export default function About() {
                         <p>nina er kul</p>
                     </div>
                 </div>
-
-
             </div>
         </>
     )

@@ -7,6 +7,7 @@ export default function Contact() {
     const [emailError, setEmailError] = useState(true);
     const [messageError, setMessageError] = useState(true);
 
+
     const handleSubmit = (event) => {
         event.preventDefault();
     }
@@ -16,7 +17,6 @@ export default function Contact() {
         let value = input.target.value;
         let emailPattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
         let telephonePattern = /^((0047)?|(\+47)?|(47)?)\d{8}$/
-
 
 
         switch (name) {
