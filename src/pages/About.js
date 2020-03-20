@@ -25,28 +25,36 @@ export default function About() {
 
     return (
         <>
-            <h1>About</h1>
+            <h1 className="accordion_heading">About</h1>
             <div className="accordion">
-                <div className="accordion_container" onClick={() => toggle(1)}>
-                    <h2>Accordion 1</h2>
-                    <div className={(accordion1 ? "show" : "hide")}>
-                        <p>lorem eiofhg wgoiewhrgrghr pgq</p>
+
+                <div className="accordion_container">
+                    <div className="accordion_container_box" onClick={() => toggle(1)}>
+                        <h2>Accordion 1</h2>
+                        <div className={(accordion1 ? "show" : "hide")}>
+                            <p className="accordion_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div className="accordion_container" onClick={() => toggle(2)}>
-                    <h2>Accordion 2</h2>
-                    <div className={(accordion2 ? "show" : "hide")}>
-                        <p>nina er kul</p>
+                <div className="accordion_container">
+                    <div className="accordion_container_box" onClick={() => toggle(2)}>
+                        <h2>Accordion 2</h2>
+                        <div className={(accordion2 ? "show" : "hide")}>
+                            <p className="accordion_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div className="accordion_container" onClick={() => toggle(3)}>
-                    <h2>Accordion 3</h2>
-                    <div className={(accordion3 ? "show" : "hide")}>
-                        <p>nina er kul</p>
+                <div className="accordion_container">
+                    <div className="accordion_container_box" onClick={() => toggle(3)}>
+                        <h2>Accordion 3</h2>
+                        <div className={(accordion3 ? "show" : "hide")}>
+                            <p className="accordion_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </>
     )

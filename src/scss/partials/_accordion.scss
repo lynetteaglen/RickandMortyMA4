@@ -5,3 +5,31 @@
 .hide{
     display: none;
 }
+
+.accordion{
+    h2{
+        text-align: center;
+    }
+  
+}
+
+.accordion_heading{
+    text-align: center;
+    margin-top: 2%; 
+}
+
+.accordion_text{
+ padding: 3%; 
+}
+
+.accordion_container_box{
+    background-color:rgb(202, 255, 133);
+    padding: 1.2%; 
+    width: 70%; 
+    margin-top: 2%; 
+    margin-bottom: 2%; 
+}
+.accordion_container{
+    display: flex;
+    justify-content: center;
+}
