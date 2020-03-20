@@ -1,0 +1,27 @@
+
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-row{
+    margin-top:2%; 
+    width: 40%; 
+}
+
+.form-control{
+    width: 100%; 
+}
+
+.btn-contact{ 
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    padding-left: 3%;
+    padding-right: 3%; 
+    border: none; 
+    color: white; 
+    font-size: 1.2em; 
+    background-color: rgb(111, 165, 228); 
+}
+

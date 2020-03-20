@@ -1,0 +1,30 @@
+.login__row{
+    display: flex; 
+    justify-content: center;
+    margin-top: 10%; 
+}
+
+.login__container{
+    width: 50%; 
+    padding: 5%; 
+    background-color: rgb(202, 255, 133);
+}
+
+.login__header{
+    color: rgb(111, 165, 228);
+    margin-bottom: 6%;
+}
+
+.btn-login{
+    margin-left: .5%; 
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    padding-left: 5%;
+    padding-right: 5%; 
+    border: none; 
+    color: white; 
+    font-size: 1.2em; 
+    background-color: rgb(111, 165, 228); 
+}
+
+

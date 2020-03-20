@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    background: rgb(239, 255, 236);
+}
+h1{
+    color: rgb(111, 165, 228);
+    margin-bottom: 5%; 
+}
+.header{
+    text-align: center;
+    color: rgb(111, 165, 228);
+    margin-top: 5%; 
+    margin-bottom: 2%; 
+      
+}
+.card-row{
+    text-align: center;
+}
+.card-container{
+    display: inline-block;
+    padding: 3%; 
+    .card{
+        background-color:rgb(202, 255, 133);
+        padding: 5%; 
+    }
+    .card-image{
+        width: 80%; 
+    }
+}
+
+.search-card-container{
+    display: flex;
+    justify-content: center;
+}
+.form-card{
+    
+    padding-top: .5%; 
+    padding-bottom: 0.5%; 
+    width: 40%; 
+}
+
+.button-card{
+    margin-left: .5%; 
+    padding-top: .5%; 
+    padding-bottom: 0.5%; 
+    padding-left: 3%;
+    padding-right: 3%; 
+    border: none; 
+    color: white; 
+    font-size: 1.2em; 
+    background-color: rgb(111, 165, 228);
+}
+
+.btn{
+    background-color: rgb(111, 165, 228); 
+    border: none; 
+}
